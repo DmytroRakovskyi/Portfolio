@@ -336,14 +336,14 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-top: 0;
 }
 .info li .first-block {
-  width: 40%;
+  width: auto;
   display: inline-block;
   float: left;
   color: #000;
   font-weight: bold;
 }
 .info li .second-block {
-  width: 60%;
+  width: auto;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
   display: -moz-inline-stack;
   display: inline-block;
-  zoom: 1;
+  zoom: 2;
   *display: inline;
 }
 .fh5co-social-icons li a {
